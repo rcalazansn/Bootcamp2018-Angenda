@@ -1,0 +1,11 @@
+C:\Eventos\Bootcamp 2018\Projeto\AgendaAPI\bin\Debug\netcoreapp2.0\AgendaAPI.deps.json
+C:\Eventos\Bootcamp 2018\Projeto\AgendaAPI\bin\Debug\netcoreapp2.0\AgendaAPI.runtimeconfig.json
+C:\Eventos\Bootcamp 2018\Projeto\AgendaAPI\bin\Debug\netcoreapp2.0\AgendaAPI.runtimeconfig.dev.json
+C:\Eventos\Bootcamp 2018\Projeto\AgendaAPI\bin\Debug\netcoreapp2.0\AgendaAPI.dll
+C:\Eventos\Bootcamp 2018\Projeto\AgendaAPI\bin\Debug\netcoreapp2.0\AgendaAPI.pdb
+C:\Eventos\Bootcamp 2018\Projeto\AgendaAPI\obj\Debug\netcoreapp2.0\AgendaAPI.csprojAssemblyReference.cache
+C:\Eventos\Bootcamp 2018\Projeto\AgendaAPI\obj\Debug\netcoreapp2.0\AgendaAPI.csproj.CoreCompileInputs.cache
+C:\Eventos\Bootcamp 2018\Projeto\AgendaAPI\obj\Debug\netcoreapp2.0\AgendaAPI.AssemblyInfoInputs.cache
+C:\Eventos\Bootcamp 2018\Projeto\AgendaAPI\obj\Debug\netcoreapp2.0\AgendaAPI.AssemblyInfo.cs
+C:\Eventos\Bootcamp 2018\Projeto\AgendaAPI\obj\Debug\netcoreapp2.0\AgendaAPI.dll
+C:\Eventos\Bootcamp 2018\Projeto\AgendaAPI\obj\Debug\netcoreapp2.0\AgendaAPI.pdb
