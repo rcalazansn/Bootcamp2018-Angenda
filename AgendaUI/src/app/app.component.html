@@ -1,0 +1,53 @@
+<div class="jumbotron">
+  <h1>Agenda Turma</h1>
+  <p>Exemplo de teste Angular</p>
+</div>
+
+<form (ngSubmit)="saveTurma(f)" #f="ngForm">
+
+  <div class="form-group">
+    <label>Nome</label>
+    <input type="text" class="form-control" name="nome" [(ngModel)]="novaTurma.nome">
+  </div>
+
+  <div class="form-group">
+    <label>Local</label>
+    <input type="text" class="form-control" name="local" [(ngModel)]="novaTurma.local">
+  </div>
+
+  <div class="form-group">
+    <label>Data de início</label>
+    <input type="date" class="form-control" name="data" [(ngModel)]="novaTurma.data">
+  </div>
+
+  <div class="form-group">
+    <label>Curso</label>
+    <select class="form-control" name="cursoId" [(ngModel)]="novaTurma.cursoId">
+      <option *ngFor="let item of cursos" [value]="item.id">{{item.nome}}</option>
+    </select>
+  </div>
+
+  <div class="form-group">
+    <label>Professor</label>
+    <select class="form-control" name="professorId" [(ngModel)]="novaTurma.professorId">
+      <option *ngFor="let item of professores" [value]="item.id">{{item.nome}}</option>
+    </select>
+  </div>
+
+  <div class="form-group">
+    <button class="btn large">Salvar</button>
+  </div>
+
+</form>
+
+<hr>
+
+<ul class="list.group">
+  <li *ngFor="let turma of turmas">
+    <h4>{{turma.nome}}</h4>
+    <p>Professor: {{turma.professor.nome}}</p>
+    <p>Curso: {{turma.curso.nome}}</p>
+  </li>
+
+  <button class="btn danger" (click)="removerTurma(turma);">Remover</button>
+</ul>
